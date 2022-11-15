@@ -1,0 +1,68 @@
+header {
+    height: 70px;
+
+}
+
+header nav {
+    text-align: center;
+    line-height: 70px;
+
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 1.6em;
+    margin: 0 15px;
+    color: #F7790A;
+}
+
+#welcomeimg {
+    width: 100vw;
+    height: 50vh;
+    background-image: url('https://images.pexels.com/photos/1249611/pexels-photo-1249611.jpeg?auto=compress&cs=tinysrgb&w=800');
+    background-size: cover;
+}
+
+#title {
+    text-align: center;
+    
+}
+
+#about-wrapper {
+    width: 100vw;
+
+}
+
+#about-wrapper p {
+    font-size: 1.3em;
+    width: 85%;
+    text-align: center;
+    margin: auto;
+}
+
+#about-wrapper img{
+ height: 150px;   
+ width: 150px;
+ border-radius: 50%;
+ float: right;
+ margin-right: 30px;
+
+}
+
+#services-wrapper {
+    width: 100vw;
+    text-align: center;
+}
+
+#services-wrapper table {
+    margin: auto;
+    width: 50vw;
+    border: 2px solid #d8d8d8;
+    font-size: 1.4em;
+}
+
+#services-wrapper tr {
+    border: 2px solid #d8d8d8;
+   
+}
+
