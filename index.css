@@ -1,6 +1,6 @@
 header {
     height: 70px;
-
+    padding-bottom: 10px;
 }
 
 header nav {
@@ -12,8 +12,13 @@ header nav {
 header nav a {
     text-decoration: none;
     font-size: 1.6em;
-    margin: 0 15px;
-    color: #F7790A;
+    margin: 0 25px;
+    color: #E6382C;
+}
+
+#logo {
+    height: 60px;
+    width: 100px;
 }
 
 #welcomeimg {
@@ -25,7 +30,7 @@ header nav a {
 
 #title {
     text-align: center;
-    
+
 }
 
 #about-wrapper {
@@ -40,12 +45,12 @@ header nav a {
     margin: auto;
 }
 
-#about-wrapper img{
- height: 150px;   
- width: 150px;
- border-radius: 50%;
- float: right;
- margin-right: 30px;
+#about-wrapper img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 30px;
 
 }
 
@@ -63,28 +68,34 @@ header nav a {
 
 #services-wrapper tr {
     border: 2px solid #d8d8d8;
-   
+
 }
+
+#services-wrapper tr:nth-child(even) {
+    background-color: #d8d8d8;
+}
+
 #servicep {
     color: #042821;
-  font-style: oblique;
-  font-size: larger;
-  text-indent: 1.5em;
+    font-style: oblique;
+    font-size: larger;
+    text-indent: 1.5em;
 }
+
 #rkj {
- border: 2px solid;
- border-radius: 8px;
- width: 200px;
+    border: 2px solid;
+    border-radius: 8px;
+    width: 200px;
 }
+
 #spec {
     margin: auto;
     width: 50vw;
     border: 2px solid #d8d8d8;
-    font-size: 1.4em; 
+    font-size: 1.4em;
     border: 2px solid #d8d8d8;
 }
 
 #spec td {
     padding-left: 40px;
 }
-
