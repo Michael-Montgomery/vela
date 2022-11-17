@@ -66,6 +66,25 @@ header nav a {
    
 }
 #servicep {
-    font-size: medium;
+    color: #042821;
+  font-style: oblique;
+  font-size: larger;
+  text-indent: 1.5em;
+}
+#rkj {
+ border: 2px solid;
+ border-radius: 8px;
+ width: 200px;
+}
+#spec {
+    margin: auto;
+    width: 50vw;
+    border: 2px solid #d8d8d8;
+    font-size: 1.4em; 
+    border: 2px solid #d8d8d8;
+}
+
+#spec td {
+    padding-left: 40px;
 }
 
