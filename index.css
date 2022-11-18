@@ -135,23 +135,28 @@ form {
 button:active {
     position: relative;
     top: 3px;
+    
 }
 
 button {
     width: 40%;
     font-size: 1.2em;
-    background-color: rgb(225, 194, 194);
-    border: 2px solid rgb(83, 3, 3);
-    color: rgba(113, 4, 4, 0.236);
-    
+    background-color: rgb(244, 240, 240);
+    border: 2px solid rgb(188, 11, 11);
+    color:red
 }
+
+
 #head a {
 text-decoration: none;
     font-size: 1.6em;
-    margin: 0 30px;
     color: #E6382C;
-    padding-bottom: 10px;
-    line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
-}
+  margin: 0 70px;
+   }
+  #re {
+    position: relative;
+    top: 3px;
+    transform: none;
+    opacity: 1;
+    transition: transform 0.2s ease, opacity 0.1s ease;
+  }
