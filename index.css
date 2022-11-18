@@ -138,6 +138,10 @@ button:active {
     
 }
 
+form button:hover {
+    background-color: aqua;
+}
+
 button {
     width: 40%;
     font-size: 1.2em;
