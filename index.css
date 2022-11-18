@@ -100,14 +100,58 @@ header nav a {
     padding-left: 40px;
 }
 #contact {
-    color: #E6382C;
-}
-#contact input {
-    margin-bottom: 1.5em;
+    color: #440702;
+    font-size: x-large;
     text-align: center;
    
 }
-#contact button {
+
+.half {
+    width: 30%;
+    margin: 1px;
+    margin-bottom: 20px;
+}
+
+input:hover,
+textarea:hover {
+    border: 3px solid rgb(108, 7, 14);
+}
+
+input:focus,
+textarea:focus {
+    background-color: darksalmon;
+}
+
+.full {
+    width: 60%;
+    margin-bottom: 20px;
+    padding: 1em;
+}
+
+form {
+    text-align: center;
+}
+
+button:active {
+    position: relative;
+    top: 3px;
+}
+
+button {
+    width: 40%;
+    font-size: 1.2em;
+    background-color: rgb(225, 194, 194);
+    border: 2px solid rgb(83, 3, 3);
+    color: rgba(113, 4, 4, 0.236);
+    
+}
+#head a {
+text-decoration: none;
+    font-size: 1.6em;
+    margin: 0 30px;
     color: #E6382C;
-    border: 1em;
+    padding-bottom: 10px;
+    line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
 }
