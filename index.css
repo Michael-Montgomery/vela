@@ -77,7 +77,7 @@ header nav a {
 
 #servicep {
     color: #042821;
-    font-style: oblique;
+   font-style: oblique;
     font-size: larger;
     text-indent: 1.5em;
 }
@@ -98,4 +98,16 @@ header nav a {
 
 #spec td {
     padding-left: 40px;
+}
+#contact {
+    color: #E6382C;
+}
+#contact input {
+    margin-bottom: 1.5em;
+    text-align: center;
+   
+}
+#contact button {
+    color: #E6382C;
+    border: 1em;
 }
