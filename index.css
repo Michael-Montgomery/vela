@@ -143,7 +143,7 @@ form button:hover {
 }
 
 button {
-    width: 40%;
+    width: 30%;
     font-size: 1.2em;
     background-color: rgb(244, 240, 240);
     border: 2px solid rgb(188, 11, 11);
@@ -163,4 +163,10 @@ text-decoration: none;
     transform: none;
     opacity: 1;
     transition: transform 0.2s ease, opacity 0.1s ease;
+  }
+  #facelogo {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
   }
