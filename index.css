@@ -170,8 +170,7 @@ button {
     padding: 5px;
     width: 150px;
   }
-  <style>
-          
+ 
   /* Media Query for Mobile Devices */
   @media (max-width: 480px) {
       body {
@@ -206,4 +205,3 @@ button {
           background-color: white;
       }
   }
-</style>
