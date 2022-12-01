@@ -5,14 +5,14 @@ header {
 
 header nav {
     text-align: center;
-    line-height: 70px;
+    line-height: 40px;
 
 }
 
 header nav a {
     text-decoration: none;
     font-size: 1.6em;
-    margin: 0 25px;
+    margin: 0 10px;
     color: #E6382C;
 }
 
@@ -152,10 +152,10 @@ button {
 
 
 #head a {
-text-decoration: none;
+    text-decoration: none;
     font-size: 1.6em;
+    margin: 0 10px;
     color: #E6382C;
-  margin: 0 70px;
    }
   #re {
     position: relative;
@@ -170,3 +170,40 @@ text-decoration: none;
     padding: 5px;
     width: 150px;
   }
+  <style>
+          
+  /* Media Query for Mobile Devices */
+  @media (max-width: 480px) {
+      body {
+          background-color: red;
+      }
+  }
+    
+  /* Media Query for low resolution  Tablets, Ipads */
+  @media (min-width: 481px) and (max-width: 767px) {
+      body {
+          background-color: yellow;
+      }
+  }
+    
+  /* Media Query for Tablets Ipads portrait mode */
+  @media (min-width: 768px) and (max-width: 1024px){
+      body {
+          background-color: blue;
+      }
+  }
+    
+  /* Media Query for Laptops and Desktops */
+  @media (min-width: 1025px) and (max-width: 1280px){
+      body {
+          background-color: green;
+      }
+  }
+    
+  /* Media Query for Large screens */
+  @media (min-width: 1281px) {
+      body {
+          background-color: white;
+      }
+  }
+</style>
