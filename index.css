@@ -1,0 +1,198 @@
+header {
+    height: 70px;
+    padding-bottom: 10px;
+}
+
+header nav {
+    text-align: center;
+    line-height: 40px;
+
+}
+
+header nav a {
+    text-decoration: none;
+    font-size: 1.6em;
+    margin: 0 10px;
+    color: #E6382C;
+}
+
+#logo {
+    height: 60px;
+    width: 100px;
+}
+
+#welcomeimg {
+    width: 100vw;
+    height: 50vh;
+    background-image: url('https://images.pexels.com/photos/1249611/pexels-photo-1249611.jpeg?auto=compress&cs=tinysrgb&w=800');
+    background-size: cover;
+}
+
+#title {
+    text-align: center;
+
+}
+
+#about-wrapper {
+    width: 100vw;
+
+}
+
+#about-wrapper p {
+    font-size: 1.3em;
+    width: 85%;
+    text-align: center;
+    margin: auto;
+}
+
+#about-wrapper img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 30px;
+
+}
+
+#services-wrapper {
+    width: 100vw;
+    text-align: center;
+}
+
+#services-wrapper table {
+    margin: auto;
+    width: 50vw;
+    border: 2px solid #d8d8d8;
+    font-size: 1.4em;
+}
+
+#services-wrapper tr {
+    border: 2px solid #d8d8d8;
+
+}
+
+#services-wrapper tr:nth-child(even) {
+    background-color: #d8d8d8;
+}
+
+#servicep {
+    color: #042821;
+   font-style: oblique;
+    font-size: larger;
+    text-indent: 1.5em;
+}
+
+#rkj {
+    border: 2px solid;
+    border-radius: 8px;
+    width: 200px;
+}
+
+#spec {
+    margin: auto;
+    width: 50vw;
+    border: 2px solid #d8d8d8;
+    font-size: 1.4em;
+    border: 2px solid #d8d8d8;
+}
+
+#spec td {
+    padding-left: 40px;
+}
+#contact {
+    color: #440702;
+    font-size: x-large;
+    text-align: center;
+   
+}
+
+.half {
+    width: 30%;
+    margin: 1px;
+    margin-bottom: 20px;
+}
+
+input:hover,
+textarea:hover {
+    border: 3px solid rgb(108, 7, 14);
+}
+
+input:focus,
+textarea:focus {
+    background-color: darksalmon;
+}
+
+.full {
+    width: 60%;
+    margin-bottom: 20px;
+    padding: 1em;
+}
+
+form {
+    text-align: center;
+}
+
+button:active {
+    position: relative;
+    top: 3px;
+    
+}
+
+form button:hover {
+    background-color: aqua;
+}
+
+button {
+    width: 30%;
+    font-size: 1.2em;
+    background-color: rgb(244, 240, 240);
+    border: 2px solid rgb(188, 11, 11);
+    color:red
+}
+
+
+#head a {
+    text-decoration: none;
+    font-size: 1.6em;
+    margin: 0 10px;
+    color: #E6382C;
+   }
+  #re {
+    position: relative;
+    top: 3px;
+    transform: none;
+    opacity: 1;
+    transition: transform 0.2s ease, opacity 0.1s ease;
+  }
+  #facelogo {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    header nav a {
+      font-size: .9em;
+      margin: 0 2vw;;
+
+    }
+
+    header nav a img {
+        height: 75px;
+    }
+    @media only screen and (max-width: 600px) {
+        #head { height: 75px;
+            }
+            #head {
+                img
+
+            }
+    }
+  }
+   
+    
